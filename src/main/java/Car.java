@@ -20,6 +20,30 @@ public class Car {
         this.airbags = airbags;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public Gearbox getGearbox() {
+        return gearbox;
+    }
+
+    public String getAirConditioning() {
+        return airConditioning;
+    }
+
+    public List<String> getAirbags() {
+        return airbags;
+    }
+
     static class CarBuilder {
         private int year;
         private String brand;
